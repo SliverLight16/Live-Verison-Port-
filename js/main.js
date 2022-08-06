@@ -14,7 +14,7 @@ $(document).ready(function () {
 		if ($(window).scrollTop() >= $offsetY) {
 			$navbar
 				.addClass("menu-fixed")
-				.css("background-color", "rgba(255,254,253,0.97)");
+				.css("background-color", "rgba(0, 0, 0, 0.6)");
 		} else {
 			$navbar.removeClass("menu-fixed").css("background-color", "transparent");
 		}
